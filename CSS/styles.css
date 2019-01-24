@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #4f4f4f;
+}
+
+.container{
+    display: grid;
+    background-color: #9f9f9f;
+}
