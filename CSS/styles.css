@@ -14,7 +14,7 @@ h1 {
 
 .nav{
     text-align: center;
-    margin-top: 15px;
+    margin: 15px;
 }
 
 .button{
@@ -25,7 +25,7 @@ h1 {
 }
 
 .container{
-    display: grid;
+    overflow: hidden;
     border: 5px solid goldenrod;
     height: 500px;
     width: 500px;
@@ -35,7 +35,4 @@ h1 {
     right: 0;
 }
 
-.item {
-    display: inline;
-    margin: 10px;
-}
+.item
