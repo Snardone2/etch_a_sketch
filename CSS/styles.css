@@ -7,6 +7,11 @@ body{
     background-color: #f4f4f4;
 }
 
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
 .nav{
     text-align: center;
     margin-top: 15px;
@@ -21,4 +26,16 @@ body{
 
 .container{
     display: grid;
+    border: 5px solid goldenrod;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.item {
+    display: inline;
+    margin: 10px;
 }
